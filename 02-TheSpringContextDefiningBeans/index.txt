@@ -1,0 +1,36 @@
+gsws_ap_b_ex1
+    - creacion de proyecto Maven
+    - agregar la dependencia spring-context al pom.xml
+
+sq-ch2-ex1
+    - crear instancia del spring context
+
+sq-ch2-ex2
+    - clase de configuracion (@Configuration)
+    - metodo para regresar la instancia que se agregara al contexto (@Bean)
+    - obtener bean del contexto
+    - agregar diferentes tipo de objetos al contexto
+
+sq-ch2-ex3
+    - agregar mas de un objeto del mismo tipo al contexto
+    - referirse a los objetos de mismo tipo por su identificador
+
+sq-ch2-ex4
+    - poner diferente identificador a los beans
+
+sq-ch2-ex5
+    - definir un bean como primario (@Primary)
+
+sq-ch2-ex6
+    - stereotype annotations (@Component, @ComponentScan)
+
+sq-ch2-ex7
+    - @PostConstruct
+
+sq-ch2-ex8
+    - agregar beans con registerBean()
+
+
+
+
+
