@@ -1,0 +1,34 @@
+sq-ch3-ex1
+    - agregar dos beans de diferente tipo al contexto sin establecer una relacion
+
+sq-ch3-ex2
+    - crear una relacion entre dos beans (wiring) en la clase de configuracion (person.setParrot(parrot()))
+
+sq-ch3-ex3
+    - inyectar el bean como parametro (public Person person(Parrot parrot))
+
+sq-ch3-ex4
+    - @Autowired en un field (field injection)
+
+sq-ch3-ex5
+    - @Autowired en el constructor (constructor injection)
+
+sq-ch3-ex6
+    - @Autowired en setter (setter injection)
+    
+sq-ch3-ex7
+    - dependencias circulares
+
+sq-ch3-ex8
+    - seleccionar un bean de varios que hay en el contexto
+    - nombrar el parametro igual que la instancia que quieres que Spring inyecte
+    - seleccionar el bean con @Qualifier
+
+sq-ch3-ex9
+    - constructor injection con @Autowired
+    - el parametro debe ser igual al nombre de un bean
+
+sq-ch3-ex10
+    - - @Autowired con @Qualifier
+
+
