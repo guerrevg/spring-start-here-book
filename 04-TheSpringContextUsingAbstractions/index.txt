@@ -1,0 +1,26 @@
+sq-ch4-ex1
+    - requerimiento de almacenar y enviar comentarios
+    - usar interfaces
+
+sq-ch4-ex2
+    - usar beans con abstracciones 
+    - stereotype annotations
+    - constructor injection
+
+sq-ch4-ex3
+    - stereotype annotations
+    - field injection
+
+sq-ch4-ex4
+    - agregar beans con @Bean
+    - inyectar bean como parametro CommentService commentService(CommentRepository commentRepository, 
+                                                                CommentNotificationProxy commentNotificationProxy)
+
+sq-ch4-ex5
+    - seleccionar un bean de varios que implementan la misma interface y que estan en el contexto de Spring (@Primary) 
+
+sq-ch4-ex6
+    - seleccionar un bean de varios que implementan la misma interface y que estan en el contexto de Spring (@Qualifier) 
+
+sq-ch5-ex7
+    - definir responsabilidades con @Service y @Repository
