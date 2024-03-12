@@ -1,0 +1,24 @@
+sq-ch5-ex1
+    - declarar bean con @bean   
+    - demostrar que el scope default es singleton
+    - en Spring, singleton significa que es un bean unico por nombre, no por tipo
+
+sq-ch5-ex2
+    - demostrar singleton scope con DI usando stereotype annotations
+    - se inyecta el mismo bean a dos servicios que dependen de un repositorio
+
+sq-ch5-ex3
+    - eager instantiation, Spring crea el bean al iniciar el contexto, aunque aun no se use el bean (comportamiento default)
+
+sq-ch5-ex4
+    - lazy instantiation, Spring crea el bean cuando se necesita la referencia
+
+sq-ch5-ex5
+    - prototype scope usando @Bean (@Scope(BeanDefinition.SCOPE_PROTOTYPE))
+
+sq-ch5-ex6
+    - comparacion de dos beans conscope prototype 
+
+sq-ch5-ex7
+     - ejemplo de uso de prototype scope para evitar race conditions
+
