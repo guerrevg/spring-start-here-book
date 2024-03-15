@@ -7,5 +7,6 @@
 | 03 The Spring context: Wiring beans | Establecer relaciones entre beans (wired y autowired), usar inyeccion de dependencias, acceder a los beans en el contexto usando inyeccion de dependencias |
 | 04 The Spring context: Using abstractions | Usar interfaces, usar abstracciones en beans y DI, definir responsabilidades con @Service y @Repository |
 | 05 The Spring context: Bean scopes and life cycle | Singleton y prototype scope, eager y lazy instantiation |
+| 06 Using aspects with Spring AOP | Aspects Oriented Programming, usar aspects, cadena de ejecucion usando aspects |
 
 
