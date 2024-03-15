@@ -1,0 +1,30 @@
+sq-ch6-ex1
+    - habilitar aspects con @EnableAspectJAutoProxy
+    - crear un @Aspect
+    - @Around("execution(* services.*.*(..))")
+    - interceptar metodo
+
+sq-ch6-ex2
+    - demostrar funcionamiento de aspects con parametros y return
+
+sq-ch6-ex3
+    - cambiar argumentos y valor de retorno
+
+sq-ch6-ex4
+    - crear anotacion (ToLog) para marcar el metodo interceptado
+
+sq-ch6-ex5
+    - @AfterReturning
+
+sq-ch6-ex6
+    - definir el aspect SecurityAspect y utilizar ambos en el mismo metodo
+
+sq-ch6-ex7
+    - definir el orden de ejecucion con @Order
+
+
+
+
+
+
+    
